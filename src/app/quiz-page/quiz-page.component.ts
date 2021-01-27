@@ -11,7 +11,7 @@ export class QuizPageComponent implements OnInit {
 
   firstQuestion = "10.01.2020";
   thirdQuestion = "Пупсолендия";
-  fourthQuestion = "тюлень, привет кенгуру, привет октябрёнок, привет барашик, привет Осми";
+  fourthQuestion = "тюлень, привет кенгуру, привет октябрёнок, привет барашек, привет Осми";
   constructor(private router: Router) { }
 
   ngOnInit() {
