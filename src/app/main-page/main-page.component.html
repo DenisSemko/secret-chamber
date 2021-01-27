@@ -1,0 +1,33 @@
+<div class="main">
+    <button class="btn-block flower" (click)="flowerClick()">🌼</button>
+    <button class="btn-block balloonEmoji" (click)="showBalloon()">🎈</button>
+    <mat-card class="box">
+        <mat-card-header>
+          <mat-card-title>It is your birthday today! Hooray!</mat-card-title>
+        </mat-card-header>
+          <mat-card-content>
+            <p class="welcome-title">Welcome to your page, my little honey ❤︎</p>
+            <p class="welcome-body">Let us play somehow </p>
+            <p class="welcome-body">to have your celebration more unforgettable that it can be!</p>
+          </mat-card-content>
+          <div fxFlex fxLayoutAlign="center center">
+            <button mat-stroked-button class="btn-block next" (click)="showNext()">What's next?</button>
+          </div>
+      </mat-card>
+      <div class="container" id="container">
+        <div class="balloon">
+          <div><span>B</span>
+          </div>
+          <div><span>T</span>
+          </div>
+          <div><span>H</span>
+          </div>
+          <div><span>D<br><br><button class="btn-block btn-balloon" (click)="heartEmoji()">❤️</button></span>
+          </div>
+          <div><span>A</span>
+          </div>
+          <div><span>Y</span>
+          </div>
+        </div>
+      </div>
+</div>

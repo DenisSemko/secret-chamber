@@ -1,0 +1,114 @@
+.main {
+    background: url("/assets/img/bg-2.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first {
+    height: 130px;
+    width: 200px;
+    background-color: rgb(190, 82, 82);
+    position: relative;
+    top: 20%;
+    left: 10%;
+    cursor: pointer;
+}
+.second {
+    height: 130px;
+    width: 200px;
+    background-color: rgb(190, 82, 82);
+    position: relative;
+    top: 40%;
+    left: 23%;
+    cursor: pointer;
+}
+.third {
+    height: 130px;
+    width: 200px;
+    background-color: rgb(190, 82, 82);
+    position: relative;
+    left: 73%;
+    bottom: 25%;
+    cursor: pointer;
+}
+.fourth {
+    height: 130px;
+    width: 200px;
+    background-color: rgb(190, 82, 82);
+    position: relative;
+    left: 73%;
+    cursor: pointer;
+}
+.video-first{
+    display: none;
+    position: relative;
+    top: 23%;
+    right: 16%;
+    height: 50%;
+}
+.video-second {
+    display: none;
+    position: relative;
+    left: 45%;
+    height: 50%;
+    top: 2%;
+}
+.video-third {
+    display: none;
+    position: relative;
+    left: 45%;
+    height: 50%;
+    top: 2%;
+}
+.video-fourth {
+    display: none;
+    position: relative;
+    left: 45%;
+    height: 50%;
+    top: 2%;
+}
+.btn-question-mark {
+    display: none;
+    position: relative;
+    left: 50%;
+    bottom: 90px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-question-halo {
+    display: none;
+    position: relative;
+    left: 50%;
+    bottom: 70px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-house {
+    display: none;
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-sparkle {
+    display: none;
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.block {
+    display: none;
+    margin: 4% 0 0 72%;
+}
+#btn-second-asnwer{
+    left: 26%;
+    cursor: pointer;
+}

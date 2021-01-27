@@ -1,0 +1,51 @@
+<div class="main">
+    <button class="btn-block first" (click)="showFirstVideo()" id="btn-first">1</button>
+    <video class="video-first" id="video-first" width="500" controls>
+        <source src="/assets/video/first.mp4" type="video/mp4">
+    </video>
+    <div>
+        <button class="btn-block btn-question-mark" id="btn-question-mark" (click)="askFirstQuestion()">🤓</button>
+    </div>
+    <button class="btn-block second" (click)="showSecondVideo()" id="btn-second">2</button>
+    <video class="video-second" id="video-second" width="500" controls>
+        <source src="/assets/video/second.mp4" type="video/mp4">
+    </video>
+    <div>
+        <button class="btn-block btn-question-mark" id="btn-question-halo" (click)="askSecondQuestion()">😇</button>
+        <div class="block" id="block">
+            <p style="color: white;">What food will you choose?</p>
+            <div>
+                <input type="radio" id="sweet" name="drone" value="sweet">
+                <label for="sweet" style="color: white;">Sweeeeeets</label>
+            </div>
+            <div>
+                <input type="radio" id="pizza" name="drone" value="pizza">
+                <label for="pizza" style="color: white;">Pizza from 'Klass'</label>
+            </div>
+            <div>
+                <input type="radio" id="all" name="drone" value="all">
+                <label for="all" style="color: white;">In Russian, it sounds like: 'Всего по-немногу!'</label>
+            </div>
+            <div>
+                <br>
+                <button mat-raised-button id="btn-second-asnwer" (click)="answerSecondQuestion()">Answer!</button>
+            </div>
+        </div>
+    </div>
+    <button class="btn-block third" (click)="showThirdVideo()" id="btn-third">3</button>
+    <video class="video-third" id="video-third" width="500" controls>
+        <source src="/assets/video/third.mp4" type="video/mp4">
+    </video>
+    <div>
+        <button class="btn-block btn-house" id="btn-house" (click)="askThirdQuestion()">🏘️</button>
+    </div>
+    <button class="btn-block fourth" (click)="showFourthVideo()" id="btn-fourth">4</button>
+    <video class="video-fourth" id="video-fourth" width="500" controls>
+        <source src="/assets/video/fourth.mp4" type="video/mp4">
+    </video>
+    <div>
+        <button class="btn-block btn-sparkle" id="btn-sparkle" (click)="askFourthQuestion()">✨</button>
+    </div>
+
+</div>
+
