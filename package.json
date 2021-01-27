@@ -1,9 +1,10 @@
 {
   "name": "bth-project",
   "version": "0.0.0",
+  "heroku-postbuild": "ng build --prod",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -13,19 +14,24 @@
   "dependencies": {
     "@angular/animations": "~10.2.0",
     "@angular/cdk": "^10.2.7",
+    "@angular/cli": "~10.2.0",
     "@angular/common": "~10.2.0",
     "@angular/compiler": "~10.2.0",
+    "@angular/compiler-cli": "~10.2.0",
     "@angular/core": "~10.2.0",
     "@angular/forms": "~10.2.0",
     "@angular/material": "^10.2.7",
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
+    "express": "^4.17.1",
     "ng-block-ui": "^3.0.2",
     "ng-image-slider": "^2.6.4",
     "ngx-toastr": "^13.2.0",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typescript": "~4.0.2",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -47,5 +53,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
+  },
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.8"
   }
 }
